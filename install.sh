@@ -54,9 +54,9 @@ brew analytics off
 echo "> Intalling GUI applications using Homebrew Cask"
 brew cask install jetbrains-toolbox google-chrome visual-studio-code docker
 
-echo "> Installing OpenJDK 11"
+echo "> Installing OpenJDK 8"
 brew tap adoptopenjdk/openjdk
-brew cask install adoptopenjdk11  # for Scala compatibility
+brew cask install adoptopenjdk8  # for Scala compatibility
 
 echo "> Installing golang"
 brew install golang
