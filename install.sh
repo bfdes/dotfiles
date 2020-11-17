@@ -41,7 +41,7 @@ echo "> Updating App Store apps"
 sudo softwareupdate -i -a
 
 echo "> Installing NVM for NodeJS package management"
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | zsh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | zsh
 
 echo "> Installing Homebrew package manager"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -56,9 +56,6 @@ brew cask install adoptopenjdk8  # for Scala compatibility
 
 echo "> Installing golang"
 brew install golang
-
-echo "> Installing rustup for Rust language management"
-brew install rustup
 
 echo "> Installing SBT for Scala development"
 brew install sbt
