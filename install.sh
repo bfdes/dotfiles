@@ -21,10 +21,6 @@ killall Dock
 # Terminal
 echo "Customizing Terminal"
 
-echo "> Changing theme to Pro"
-defaults write com.apple.terminal "Default Window Settings" -string "Pro"
-defaults write com.apple.terminal "Startup Window Settings" -string "Pro"
-
 echo "> Changing computer and host name"
 sudo scutil --set ComputerName "rMBA"
 sudo scutil --set LocalHostName "rMBA"
