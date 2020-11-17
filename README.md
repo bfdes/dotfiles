@@ -4,7 +4,7 @@ My dotfiles and installation script for software development on Mac.
 
 ## Requirements
 
-Setup should be compatible with any machines running macOS Catalina.
+Setup should be compatible with any machines running macOS Catalina or later.
 
 ## Usage
 
