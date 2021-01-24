@@ -48,11 +48,11 @@ echo "> Installing Homebrew package manager"
 brew analytics off
 
 echo "> Intalling GUI applications using Homebrew Cask"
-brew cask install jetbrains-toolbox google-chrome visual-studio-code docker
+brew install jetbrains-toolbox google-chrome visual-studio-code docker --cask
 
 echo "> Installing OpenJDK 8"
 brew tap adoptopenjdk/openjdk
-brew cask install adoptopenjdk8  # for Scala compatibility
+brew install adoptopenjdk8  --cask # for Scala compatibility
 
 echo "> Installing golang"
 brew install golang
