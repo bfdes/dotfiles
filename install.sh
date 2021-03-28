@@ -12,9 +12,6 @@ defaults write com.apple.dock mineffect -string "scale"
 echo "> Removing recent applications pane"
 defaults write com.apple.dock show-recents -bool false
 
-echo "> Magnifies dock icons on hover"
-defaults write com.apple.dock minimize-to-application -bool true
-
 echo "Restarting Dock"
 killall Dock
 
