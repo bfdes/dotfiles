@@ -53,6 +53,9 @@ curl -s https://get.sdkman.io | bash
 echo "> Installing golang"
 brew install golang
 
+echo "> Installing rustup for Rust development"
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 echo "> Installing SBT for Scala development"
 brew install sbt
 
