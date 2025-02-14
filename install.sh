@@ -69,5 +69,6 @@ brew install sbt
 git config --global user.name "Bruno Fernandes"
 git config --global user.email "bfdes@users.noreply.github.com"
 git config --global user.defaultBranch "master"
+git config --global push.autoSetupRemote true
 
 echo "Please restart Terminal :)"
