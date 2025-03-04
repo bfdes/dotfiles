@@ -7,7 +7,7 @@ echo "> Showing Dock on hover only"
 defaults write com.apple.dock autohide -bool true
 
 echo "> Minimising windows using scale effect"
-defaults write com.apple.dock mineffect -string "scale"
+defaults write com.apple.dock mineffect -string scale
 
 echo "> Removing recent applications pane"
 defaults write com.apple.dock show-recents -bool false
@@ -19,9 +19,9 @@ killall Dock
 echo "Customizing Terminal"
 
 echo "> Changing computer and host name"
-sudo scutil --set ComputerName "MBP"
-sudo scutil --set LocalHostName "MBP"
-sudo scutil --set HostName "MBP"
+sudo scutil --set ComputerName MBP
+sudo scutil --set LocalHostName MBP
+sudo scutil --set HostName MBP
 
 touch ~/.hushlogin
 
@@ -67,8 +67,8 @@ brew install sbt
 
 # Git profile
 git config --global user.name "Bruno Fernandes"
-git config --global user.email "bfdes@users.noreply.github.com"
-git config --global user.defaultBranch "master"
+git config --global user.email bfdes@users.noreply.github.com
+git config --global user.defaultBranch master
 git config --global push.autoSetupRemote true
 
 echo "Please restart Terminal :)"
